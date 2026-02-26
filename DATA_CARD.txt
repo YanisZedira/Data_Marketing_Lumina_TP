@@ -1,0 +1,24 @@
+
+=============================================================
+DATA CARD — Lumina & Co Dataset (usage pédagogique)
+=============================================================
+
+FICHIERS
+--------
+  customers.csv     : 50,000 clients
+  transactions.csv  : 1,837,137 lignes
+  touchpoints.csv   : 394,876 touchpoints
+  campaigns.csv     : 6 campagnes
+
+SOURCES
+-------
+  Clients UCI Online Retail II (réels)    : 5,942
+    CC BY 4.0 — archive.ics.uci.edu/dataset/502/online+retail+ii
+  Clients synthétiques (bootstrapping RFM): 44,058
+    Rééchantillonnage stratifié par quintile RFM.
+    IDs numériques dans la même convention UCI
+
+  touchpoints.csv / campaigns.csv
+    Distributions Criteo Attribution Dataset (Criteo Research License)
+    ailab.criteo.com/criteo-attribution-modeling-bidding-dataset/
+
